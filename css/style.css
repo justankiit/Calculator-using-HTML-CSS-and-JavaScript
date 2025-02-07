@@ -6,13 +6,15 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 
-    font:bold 14px Aria,sans-serif;
+    /* Updated to a modern sans-serif font */
+    font:bold 14px Roboto, sans-serif;
 }
 
 html {
     height: 100%;
     background: white;
-    background: radial-gradient(circle, #fff 20%, #ccc);
+    /* Updated to a modern linear gradient for a cleaner and more contemporary look */
+    background: linear-gradient(135deg, #e0eafc, #cfdef3);
     background-size: cover;
 }
 
@@ -23,8 +25,8 @@ html {
     margin: 100px auto;
     padding: 20px 20px 9PX;
 
-    background: #0b8fcc;
-    background: linear-gradient(#0757ce, #8bceec);
+    /* Updated to a modern linear gradient for a vibrant appearance */
+    background: linear-gradient(135deg, #667eea, #764ba2);
     border-radius: 3px;
     /* Using box shadows to create 3D effects */
     box-shadow: 0px 4px #009de4, 0px 10px 15px rgba(0,0,0,0.2);
@@ -128,8 +130,9 @@ html {
 
 /* Other Buttons */
 .keys span:hover {
-    background: #9c89f6;
-    box-shadow: 0px 4px #6b54d3;
+    /* Updated to a fresh color palette */
+    background: #6c63ff;
+    box-shadow: 0px 4px #4a47a3;
     color: white;
 }
 
